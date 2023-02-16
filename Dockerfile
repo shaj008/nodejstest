@@ -1,5 +1,3 @@
-FROM node:16
-CMD mkdir src
-COPY src/ /var/www/html 
+FROM node:16 
 EXPOSE 80
 
